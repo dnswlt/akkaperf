@@ -11,7 +11,7 @@ aggregated result.
     mvn clean install
     ./run_akka.sh <num_workers> <num_runs>
 
-Note: the `run.sh` uses Windows `-cp` syntax internally, it was written to be used in a Git Bash
+Note: the shell script uses Windows `-cp` syntax internally, it was written to be used in a Git Bash
 or Cmder. Adapt accordingly when on Linux.
 
 
