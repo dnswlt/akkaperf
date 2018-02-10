@@ -15,10 +15,10 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
-public class App {
+public class AkkaApp {
 
     public static void main(String[] args) throws Exception {
-        new App().run(args);
+        new AkkaApp().run(args);
     }
 
     private void run(String[] args) throws Exception {
