@@ -6,6 +6,11 @@ that will perform some trivial computation and respond with a `Result` message.
 Once all `Result`s have been gathered, the `Coordinator` itself responds with an
 aggregated result.
 
+## Build and run
+
+    mvn clean install
+    ./run.sh <num_workers> <num_runs>
+
 ## Sample output
 
     ./run.sh 1000 10000
